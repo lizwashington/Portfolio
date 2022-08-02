@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./stylesheet.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monika's Portfolio</title>
-
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Liz Washington</title>
 </head>
 <body>
-    <!-- Navigation-->
-    <header>
-        <h1>
-       Liz Washington Portfolio
-        </h1>
-    <nav>
-        <!--unordered list element-->
-        <ul>
-            <!-- list item element-->
-            <li>
-                <a class="NavLinks" href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a class="NavLinks" href="#projects">Projects</a>
-            </li>
-            <li>
-                <a class="NavLinks" href="#resume">Resume</a>
-            </li>
-            <li>
-                <a class="NavLinks" href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-</header>
 
-<!-- Main Section-->
+    <section class="wrapper">
 
-<!--About Me Section-->
-<div class="about-me-bio" id="about-me">
-<h2>About Me</h2>
-<!--Stacked Images-->
-<div class="image-stack">
-    <div class="image-stack_item image-stack_item--top">
-        <img src="./images/portrait.JPG" id="portrait" alt="portrait of Liz">
+        <!-- about -->
+        <div class="span-all">
+            <h1 class="title serif caps centre">Liz<br> Washington</h1>
+            <p class="sans centre summary">Full Stack Web Developer &ndash; Marketing and  Operations Specialist </p>
         </div>
-<div class="image-stack_item image-stack_item--bottom">
-    <img src="./images/hubble.jpeg" id="hubble" alt="picture of hubble telescope space image">
-</div>
-    </div>
- <br>
+        
+        <div class="span-third">
+            <p class="serif accent">Liz Washington achieved a BA in Fashion Merchandising from the University of Kentucky and recently graduated from a full stack coding bootcamp at the University of Texas at Austin.</p>
+            <p class="serif accent">Employed in interior design, she hopes to leverage her experience with style, content marketing, social media, and project management to specialize her value as a web developer.</p>
+            <p class="serif accent">
+                Sarah is currently focused on mastering the MERN stack while strengthening her foundation in JavaScript.
+            </p>
+            <img class="placeholder" src="./assets/images/headshot.png" alt="headshot of Sarah Safarzadeh" />
+        </div>
 
-<!--My Bio-->
-<div>
-<p> I am new to this beautiful state of Texas and I love it! I enjoy spending time with my fiance and dog! 
+        <!-- projects -->
+        <div class="span-twothirds">
+        
+            <p class="placeholder sans fine-print">1<a
+                href="https://clinic-pal.herokuapp.com/"
+                target="_blank"><img class="img" src="./assets/images/clinic-pal.png" title="Clinic Pal is a database that allows users to keep track of their appointments and information related to the medical facility." /></a></p>
 
-<!--My Projects Section-->
-<div class="my-projects" id="projects">
-<h2>Projects</h2>
-<br>
+                <p class="placeholder sans fine-print">2<a href="https://mighty-cliffs-08051.herokuapp.com/" target="_blank"><img class="img" src="./assets/images/cold-case-central.png" title="Cold Case Central is a blog-style application built with the MERN stack, focused on unsolved mysteries. Users can signup for an account and login to comment on posts." /></a></p>
 
+            <p class="placeholder sans fine-print">3<a href="https://team-incredibles.github.io/Group-Project/" target="_blank"><img class="img" src="./assets/images/space-dash.png" title="Space Dash is a website that fetches and displays data from 3 NASA APIs: APOD, Asteroids - NeoWs, and InSight: Mars Weather. The user interface is simple, ranging from document.ready functions already displaying APOD data, to requesting data with the click of a button. The site implements custom HTML and CSS to present an easy-to-use environment, with JavaScript operating as the muscle pulling the styling, structure, and vision together to create a functional Space Dash."/></a></p>
 
+ 
 
-<!--My Resume Section-->
-<div class="my-resume" id="resume">
-<h2>Resume</h2>
-<br>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus unde tempore corrupti non inventore exercitationem nihil ipsam recusandae aperiam illo, adipisci, distinctio, quibusdam quos cum cupiditate veritatis? Ab, corrupti.</p>
-</div>
+        <!-- <div class="summary span-fourth sans">
+            <p> P R O J E C T</p>
+        </div>
+        <div class="line-left summary span-fourth sans">
+            <p>P R O J E C T</p>
+        </div>
+        <div class="line-left span-fourth summary sans">
+            <p>P R O J E C T</p>
+        </div>
+        <div class="line-left span-fourth summary sans">
+            <p>P R O J E C T</p>
+        </div> -->
+    
+        <div class="span-threefourths">
+            <!-- <img class="vector" src="./assets/images/agave.PNG" alt="vector image" /> -->
 
-<!--Contact Me Section-->
-<div class="contact-me" id="contact-me">
-<h2>Contact Me</h2>
-<br>
-<p><em>Feel free to drop me a line</em></p>
-<p>&#128241; 404-754-4894</p>
-<p>&#128187; <a href="mailto:e.m.washington@icloud.com">e.m.washington@icloud.com</a>
-</p>
-</div>
+            <!-- Contact Form -->
+            <!-- <form>
+                <label for="name">Name:</label>
+                <input class="form-input" type="text" placeholder="Name" name="name" id="name" />
+                <label for="email">Email:</label>
+                <input class="form-input" type="email" placeholder="Email Address" name="email" id="email" />
+                <label for="phone">Number:</label>
+                <input class="form-input" type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <label for="message">Reach Out</label>
+                <input class="form-input" type="text" placeholder="Message" name="message" id="message" />
+                <button type="submit">
+                    Release
+                </button>
+            </form> -->
 
+        </div>
 
+        <!-- <div class="span-fourth">
+            <p class="placeholder"></p>
+        </div> -->
+        
+        <div class="span-third">
+            <p class="sans centre">
+            <a href="https://github.com/lizwashington" target="_blank" title="Visit GitHub">https://github.com/Sarah-Safarzadeh</a><br>
 
+        </div>
+        <div class="line-left span-third">
+        </div>
+        <div class="line-left span-third">
+            <p class="centre">
+                <a href="https://www.linkedin.com/in/lizwashington" target="_blank" title="Visit LinkedIn">https://www.linkedin.com/in/liz-washington-ab544719b/</a></p>
+        </div>
+    
+    </section>
+    
 </body>
 </html>
